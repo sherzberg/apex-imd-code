@@ -15,6 +15,15 @@ _DISCLAIMER 1: I am not responsible for anything you type into a terminal of a s
  - ssh key (will be provided)
  - an internet connection
 
+## Prerequisites
+
+This guide assume some basic knowledge of `mysql` usage. You should be familiar with:
+
+ - `CREATE TABLE`
+ - `SELECT`
+ - `INSERT`
+ - `DELETE`
+
 ## Setup
 
 We will be using a virtual machine hosted in the cloud (DigitalOcean). We will each remotely connect to our own machine
