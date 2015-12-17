@@ -8,7 +8,7 @@ Installing mysql for the first time will prompt you for a few things. Read the p
 $ apt-get install mysql-server
 ```
 
-That's it! We should b able to connect and vew some default database information:
+That's it! We should be able to connect and vew some default database information:
 
 ```bash
 $ mysql -p
