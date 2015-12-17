@@ -1,5 +1,14 @@
 # mysql + linux workshop
 
+## Goals!
+
+ - Learn some basics of a linux environment
+ - Learn some basics of mysql server administration
+
+_DISCLAIMER 0: Much of what we will be doing will be side steping any security concerns involved with linux administration._
+
+_DISCLAIMER 1: I am not responsible for anything you type into a terminal of a server. This guide is mostly for reference._
+
 ## Requirements
 
  - terminal emulator (Terminal, iTerm2)
