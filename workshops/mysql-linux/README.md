@@ -40,12 +40,12 @@ Put the ssh key on your machine where you can remember the location.
 
 ```bash
 $ chmod 700 id_rsa
-$  ssh -i id_rsa.pub root@<IP_ADDRESS_CHANGE_ME>
+$  ssh -i id_rsa root@<IP_ADDRESS_CHANGE_ME>
 The authenticity of host 'IP_ADDRESS (IP_ADDRESS)' can't be established.
 ECDSA key fingerprint is LKSJDFLKJS
 Are you sure you want to continue connecting (yes/no)? yes
 Warning: Permanently added 'IP_ADDRESS' (ECDSA) to the list of known hosts.
-Enter passphrase for key 'id_rsa.pub':
+Enter passphrase for key 'id_rsa':
 
 $ ssh -i id_rsa root@<IP_ADDRESS_CHANGE_ME>
 Welcome to Ubuntu 14.04.3 LTS (GNU/Linux 3.13.0-71-generic x86_64)
