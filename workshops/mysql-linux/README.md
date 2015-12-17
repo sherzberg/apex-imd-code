@@ -11,6 +11,13 @@
 We will be using a virtual machine hosted in the cloud (DigitalOcean). We will each remotely connect to our own machine
 so we don't mess with someone elses machines.
 
+The instructor will give you two things:
+
+ - server ip address (ex: 192.168.0.2)
+ - ssh key (ex: id_rsa)
+
+Put the ssh key on your machine where you can remember the location.
+
 ### Connecting
 
 ```bash
@@ -38,32 +45,7 @@ Welcome to Ubuntu 14.04.3 LTS (GNU/Linux 3.13.0-71-generic x86_64)
 root@db-0:~# uname -a
 ```
 
-## Installing Packages
-
-Before we can setup and use `mysql`, we need to be able to install it.
-
-We are using the Ubuntu Linux distribution. Ubuntu comes with a software package management system that allows an operator
-to install, update and remove system software really easily.
-
-To install anything, you must first update the local cache of software that is available:
-
-```bash
-$ apt-get update
-```
-
-When that completes, you can now install new things. Lets try this out:
-
-```bash
-$ apt-get install cowsay
-...
-Setting up cowsay (3.03+dfsg1-6) ...
-```
-
-Our `cowsay` package is installed, now lets use it to make sure.
-
-```bash
-$ cowsay "I am installed!"
-```
+Before we can move on, you must be able to connect like the above.
 
 ## Next Steps
 
